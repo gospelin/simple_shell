@@ -52,7 +52,7 @@ char *_strcat(char *strc1, char *strc2);
 unsigned int _strlen(char *str);
 char **tokenize(char *buffer, char *delimiter);
 char **_realloc(char **ptr, size_t *size);
-char *_strtok(char *str, const char *delim);
+char *new_strtok(char *str, const char *delim);
 void (*check_for_builtins(vars_t *vars))(vars_t *vars);
 void new_exit(vars_t *vars);
 void _env(vars_t *vars);
