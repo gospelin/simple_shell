@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * token - tokenizes a buffer with a delimiter
+ * tokenize - tokenizes a buffer with a delimiter
  * @buffer: buffer to tokenize
  * @delimiter: delimiter to tokenize along
  *
  * Return: pointer to an array of pointers to the tokens
  */
 
-char **token(char *buffer, char *delimiter)
+char **tokenize(char *buffer, char *delimiter)
 {
 	char **tokens = NULL;
 	size_t i = 0, mcount = 10;
